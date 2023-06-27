@@ -48,7 +48,7 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 40px;
-  background-color: rgb(204, 243, 243);;
+  background-color: white;;
 }
 
 .section-header h2 {
@@ -549,7 +549,7 @@ h5 {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: rgb(204, 243, 243);
+  background-color: white;
 }
 
 .about h3 {
@@ -606,7 +606,7 @@ h5 {
   text-align: center;
   transition: 0.3s;
   height: 100%;
-  background-color: rgb(204, 243, 243);
+  background-color: #d8e8ff;
 }
 
 .values .box img {
@@ -1061,7 +1061,7 @@ h5 {
   font-size: 18px;
   color: #444444;
   text-align: left;
-  background-color: rgb(204, 243, 243);
+  background-color: white;
 }
 
 .faq .accordion-button:focus {
@@ -2307,7 +2307,7 @@ h5 {
 }
 
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
+  max-height: 120px;
   margin-right: 6px;
 }
 
