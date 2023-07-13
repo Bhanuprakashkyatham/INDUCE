@@ -8,142 +8,22 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link href="assets/img/INDUCE Updated.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-    h2 {
-      text-align: center;
-      padding: 20px;
-    }
-
-    /* Slider */
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-slider {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-      touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .slick-list {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-    }
-
-    .slick-list:focus {
-      outline: none;
-    }
-
-    .slick-list.dragging {
-      cursor: pointer;
-      cursor: hand;
-    }
-
-    .slick-slider .slick-track,
-    .slick-slider .slick-list {
-      -webkit-transform: translate3d(0, 0, 0);
-      -moz-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-
-    .slick-track {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-    }
-
-    .slick-track:before,
-    .slick-track:after {
-      display: table;
-      content: '';
-    }
-
-    .slick-track:after {
-      clear: both;
-    }
-
-    .slick-loading .slick-track {
-      visibility: hidden;
-    }
-
-    .slick-slide {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-    }
-
-    [dir='rtl'] .slick-slide {
-      float: right;
-    }
-
-    .slick-slide img {
-      display: block;
-    }
-
-    .slick-slide.slick-loading img {
-      display: none;
-    }
-
-    .slick-slide.dragging img {
-      pointer-events: none;
-    }
-
-    .slick-initialized .slick-slide {
-      display: block;
-    }
-
-    .slick-loading .slick-slide {
-      visibility: hidden;
-    }
-
-    .slick-vertical .slick-slide {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-    }
-
-    .slick-arrow.slick-hidden {
-      display: none;
-    }
-
     .text-typing {
       padding: 20px 30px;
       background: #f5f5f5;
@@ -194,7 +74,6 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -207,75 +86,67 @@
         background-position: 200% center;
       }
     }
-    
   </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
+  <header id="header" class="header fixed-top" style="background-color: #f1e9e9">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-  <div class="row" style="background-color: white;">
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top" style="background-color: #f1e9e9">
-      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/INDUCE Updated.png" alt="" width="50%" height="50%">
+      </a>
 
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/INDUCE Updated.png" alt="" width="50%" height="50%">
-        </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="internships.html">Internships</a></li>
+          <li><a class="nav-link scrollto" href="protfolio.html">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <li><a class="getstarted scrollto" href="about.html">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-            <li><a class="nav-link scrollto" href="about.html">About</a></li>
-            <li><a class="nav-link scrollto" href="internships.html">Internships</a></li>
-            <li><a class="nav-link scrollto" href="protfolio.html">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="team.html">Team</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-            <li><a class="getstarted scrollto" href="about.html">Get Started</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+    </div>
+  </header>
 
-      </div>
-    </header><!-- End Header -->
-  </div>
-  <br>
-  <div style="background-color: white;">
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center" style="background-color: white;">
+  <section id="hero" class="hero d-flex align-items-center">
 
-      <div class="container" style="background-color: white;">
-        <div class="row" style="margin-bottom: 0px;">
-          <div class="col-lg-6 d-flex flex-column justify-content-center" style="background-color: white;">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1 class="animate-charcter" style="font-size: 80px;">INDUCE</h1>
-                </div>
-              </div>
-            </div>
-            <br>
-            <h1>
-              <a href="" class="typewrite" style="color:#101c7c; font-size: 40px;" data-period="2000"
-                data-type='["-Together to know","-Together to share","-Together to explore","-A student community","-Certified under MSME","-Technical to practical","-Research To development"]'>
-                <span class="wrap"></span>
-              </a>
-            </h1>
-            <br>
-            <div data-aos="fade-up" data-aos-once="false" data-aos-delay="600" data-aos-once="false"
-              style="padding-bottom: 0px;">
-              <div class="text-center text-lg-start">
-                <a href="about.html"
-                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Get Started</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="animate-charcter" style="font-size: 80px;" data-aos="fade-up">INDUCE</h1>
               </div>
             </div>
           </div>
+          <h1 data-aos="fade-up">
+            <a href="" class="typewrite" style="color:#101c7c; font-size: 40px;" data-period="2000"
+              data-type='["-Together to know","-Together to share","-Together to explore","-A student community","-Certified under MSME","-Technical to practical","-Research To development"]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          <div data-aos="fade-up" data-aos-once="false" data-aos-delay="600" data-aos-once="false"
+            style="padding-bottom: 0px;">
+            <div class="text-center text-lg-start">
+              <a href="about.html"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-          <div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
+        <div class="col-lg-6 hero-img">
+
+          <div id="myCarousel" class="carousel slide bg-inverse ms-auto me-auto" data-bs-ride="carousel">
             <ol class="carousel-indicators">
               <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
               <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
@@ -328,71 +199,131 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
+  </section>
 
-  </section><!-- End Hero -->
-  <header class="section-header">
-    <h2>Our Latest Updates</h2>
-    <p>UPDATES</p>
-  </header>
-  <div class="container" data-aos="fade-up" data-aos-once="false">
+  <section id="updates" class="updates">
+    <div class="container" data-aos="fade-up" data-aos-once="false">
 
-    <div class="row" style="background-color: white;">
+      <header class="section-header">
+        <h2>Our Latest Updates</h2>
+        <p>UPDATES</p>
+      </header>
 
-      <div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="7"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="8"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="assets/img/updates/Abhigyanam.jpg" alt="First slide">
+      <div class="row">
+
+        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+          <div class="box">
+            <div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="7"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="8"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/img/updates/Abhigyanam.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/Chandrayaan.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/III.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/Innovate India.jpg" alt="Sixth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/SamasyaParishkar.jpeg" alt="Tweleth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/ServingTheThirst.jpeg" alt="Thirtenneth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/SessionIOTRobotics.jpg" alt="Seventh slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/SharkTank.jpeg" alt="Seventh slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/updates/Startup.jpeg" alt="Seventh slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/Chandrayaan.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/III.jpg" alt="Fifth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/Innovate India.jpg" alt="Sixth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/SamasyaParishkar.jpeg" alt="Tweleth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/ServingTheThirst.jpeg" alt="Thirtenneth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/SessionIOTRobotics.jpg" alt="Seventh slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/SharkTank.jpeg" alt="Seventh slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/updates/Startup.jpeg" alt="Seventh slide">
-          </div>
+
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
       </div>
     </div>
+  </section>
+  <!-- ======= Counts Section ======= -->
+  <section id="counts" class="counts">
+    <div class="container" data-aos="fade-up">
 
-  </div>
+      <div class="row gy-4">
 
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <div>
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="10" data-purecounter-once="false"
+                class="purecounter"></span>
+              <p>Hybrid Initiatives</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+            <div>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="10" data-purecounter-once="false"
+                class="purecounter"></span>
+              <p>Internships</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-headset" style="color: #15be56;"></i>
+            <div>
+              <span data-purecounter-start="0" data-purecounter-end="212" data-purecounter-duration="10" data-purecounter-once="false"
+                class="purecounter"></span>
+              <p>Students</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-people" style="color: #bb0852;"></i>
+            <div>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="10" data-purecounter-once="false"
+                class="purecounter"></span>
+              <p>R&D ideas</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Counts Section -->
   <section id="values" class="values">
 
     <div class="container" data-aos="fade-up" data-aos-once="false">
@@ -437,387 +368,373 @@
 
 
     </div>
+  </section>
 
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
 
-      <div class="container" data-aos="fade-up" data-aos-once="false">
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients">
 
-        <header class="section-header">
-          <h2>Our Clients</h2>
-          <p>Clients and Collaborators</p>
-        </header>
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/collaborators/Sociocharge .png" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Bumchickbaby .jpeg" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Wordgenix Logo.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Startoon labs.png" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/AdaptTeq .png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Publishsutra.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Mahawiki.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Lucidvlsi.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Engineering Priciples.jpg" class="img-fluid"
-                alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/tec logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/TECCharge.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Webud.jpeg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Sreevision 21.jpeg" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Rigolade22.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Rigolade 23.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/collaborators/Roboveda.jpg" class="img-fluid" alt=""></div>
+    <div class="container" data-aos="fade-up" data-aos-once="false">
 
-            <div class="swiper-slide"><img src="assets/img/collaborators/CSAC SNIST.jpg" class="img-fluid" alt=""></div>
+      <header class="section-header">
+        <h2>Our Clients</h2>
+        <p>Clients and Collaborators</p>
+      </header>
+      <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/img/collaborators/Sociocharge .png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Bumchickbaby .jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Wordgenix Logo.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Startoon labs.png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/AdaptTeq .png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Publishsutra.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Mahawiki.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Lucidvlsi.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Engineering Priciples.jpg" class="img-fluid"
+              alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/tec logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/TECCharge.png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Webud.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Sreevision 21.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Rigolade22.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Rigolade 23.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Roboveda.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="swiper-slide"><img src="assets/img/collaborators/CSAC SNIST.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Siya.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/Rigbetel Labs.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/collaborators/RoboticElectronics.jpg" class="img-fluid" alt="">
           </div>
         </div>
       </div>
-
-    </section><!-- End Clients Section -->
-
-    <section id="team" class="team">
-
-      <div class="container" data-aos="fade-up" data-aos-once="false">
-
-        <header class="section-header">
-          <h2>Team</h2>
-          <p>Our Hard Working Team</p>
-        </header>
-        <center>
-          <div class="row gy-5">
-
-            <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false"
-              data-aos-delay="100">
-              <div class="member">
-                <div class="member-img">
-                  <img src="assets/img/team/SaiRaj.jpg" alt="" class="img-fluid">
-                  <div class="social">
-                    <a href="https://twitter.com/RajRamdeni?t=LNfzkQCpJVbCteEUAa5M_A&s=09"><i
-                        class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/sairaj.ramdeni?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
-                    <a href="https://instagram.com/mr_rsraj?igshid=MzRlODBiNWFlZA=="><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sai-raj-ramdeni-1679881a3"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Sai Raj Ramdeni</h4>
-                  <span>Founder & Cheif Executive Officer</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false"
-              data-aos-delay="200">
-              <div class="member">
-                <div class="member-img">
-                  <img src="assets/img/team/Rakesh.jpg" alt="" class="img-fluid">
-                  <div class="social">
-                    <a href="https://twitter.com/RAKESHCHENNA22?t=stAT9xoesFIuj-WA9ep9Rw&s=09"><i
-                        class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100008534235294&mibextid=ZbWKwL"><i
-                        class="bi bi-facebook"></i></a>
-                    <a href="https://instagram.com/rakesh_rocky_1724?igshid=MzRlODBiNWFlZA=="><i
-                        class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rakesh-kumar-chenna-48a49b1b6"><i
-                        class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Rakesh Kumar CH</h4>
-                  <span>Co Founder & Cheif Marketing Officer</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false"
-              data-aos-delay="300">
-              <div class="member">
-                <div class="member-img">
-                  <img src="assets/img/team/Sushanth.jpg" alt="" class="img-fluid">
-                  <div class="social">
-                    <a href="https://twitter.com/Sushanth_38?t=8Uo2xQjRBjsq6YN40d1zzA&s=09"><i
-                        class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/mamidoju.sushanth?mibextid=ZbWKwL"><i
-                        class="bi bi-facebook"></i></a>
-                    <a href="https://instagram.com/sushanth_mamidoju?igshid=MzRlODBiNWFlZA=="><i
-                        class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sushanth-mamidoju-139933174"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Sushanth Mamidoju</h4>
-                  <span>Co Founder & Cheif Designing Officer</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false"
-              data-aos-delay="400">
-              <div class="member">
-                <div class="member-img">
-                  <img src="assets/img/team/Bhanu.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
-                    <a href="https://www.facebook.com/bhanu.kyatham?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
-                    <a href="https://instagram.com/bhanukyatham?igshid=MzRlODBiNWFlZA=="><i
-                        class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/bhanu-prakash-kyatham-28ab681b5"><i
-                        class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Bhanu Prakash Kyatham</h4>
-                  <span>Co Founder & Cheif External Affairs Officer</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false"
-              data-aos-delay="400">
-              <div class="member">
-                <div class="member-img">
-                  <img src="assets/img/team/Murali.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href="https://twitter.com/KMurali65303333?t=XwISAyYPNqqMT3AVCpXObA&s=09"><i
-                        class="bi bi-twitter"></i></a>
-                    <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                    <a href="https://instagram.com/muralikrishna353?igshid=MzRlODBiNWFlZA=="><i
-                        class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/murali-krishna-345217200"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Murali Krishna</h4>
-                  <span>Co Founder & Cheif Financial Officer</span>
-                </div>
-              </div>
-            </div>
-        </center>
-
-      </div>
-
-    </section><!-- End Team Section -->
-    <!-- ======= Recent Blog Posts Section ======= -->
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up" data-aos-once="false">
-
-        <header class="section-header">
-          <h2>Collaborations</h2>
-          <p>Contact</p>
-        </header>
-
-        <div class="row gy-4" style="justify-content: center;">
-
-          <div class="col-lg-6">
-            <form action="mailto:teaminducers@gmail.com" method="post" class="php-email-form"
-              style="background-color: #f2edf8;">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <a href="mailto:teaminducers@gmail.com" class="btn btn-primary">Send Message</a>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-
-
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-5 col-md-12 footer-info">
-              <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/INDUCE Updated.png" alt="">
-              </a>
-              <h6>Worthy concepts for many to <b>GROW</b> Together in a <b>CHAIN</b></h6>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/ToInduce" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.facebook.com/teaminducers" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.youtube.com/channel/UC3wRVCGHeLcqJzTW4pLJStg" class="youtube"><i
-                    class="bi bi-youtube"></i></a>
-                <a href="https://www.linkedin.com/company/induce-together-toexplore" class="linkedin"><i
-                    class="bi bi-linkedin"></i></a>
-                <a href="https://www.instagram.com/teaminducers/?hl=en" class="instagram"><i
-                    class="bi bi-instagram"></i></a>
-                <a href="mailto:teaminducers@gmail.com" class="google"><i class="bi bi-google"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Our Internships</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-              <h4>Contact Us</h4>
-              <p>
-                QNo A 711 BDL Township <br>
-                Bhanoor, Patancheru Mandal, Sangareddy District, Telangana, 502305<br>
-                India <br><br>
-                <strong>Phone:</strong> +91 9573511693<br>
-                <strong>Email:</strong> teaminducers@gmail.com<br>
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </footer><!-- End Footer -->
-
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script>
-      var TxtType = function (el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-      };
-
-      TxtType.prototype.tick = function () {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-          this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-          this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-          delta = this.period;
-          this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-          this.isDeleting = false;
-          this.loopNum++;
-          delta = 500;
-        }
-
-        setTimeout(function () {
-          that.tick();
-        }, delta);
-      };
-
-      window.onload = function () {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i = 0; i < elements.length; i++) {
-          var toRotate = elements[i].getAttribute('data-type');
-          var period = elements[i].getAttribute('data-period');
-          if (toRotate) {
-            new TxtType(elements[i], JSON.parse(toRotate), period);
-          }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-      };
-    </script>
     </div>
+
+  </section><!-- End Clients Section -->
+
+  <section id="team" class="team">
+
+    <div class="container" data-aos="fade-up" data-aos-once="false">
+
+      <header class="section-header">
+        <h2>Team</h2>
+        <p>Our Hard Working Team</p>
+      </header>
+      <center>
+        <div class="row gy-5">
+
+          <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/Sairaj.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://twitter.com/RajRamdeni?t=LNfzkQCpJVbCteEUAa5M_A&s=09"><i
+                      class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/sairaj.ramdeni?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/mr_rsraj?igshid=MzRlODBiNWFlZA=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sai-raj-ramdeni-1679881a3"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sai Raj Ramdeni</h4>
+                <span>Founder & Cheif Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/Rakesh.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://twitter.com/RAKESHCHENNA22?t=stAT9xoesFIuj-WA9ep9Rw&s=09"><i
+                      class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100008534235294&mibextid=ZbWKwL"><i
+                      class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/rakesh_rocky_1724?igshid=MzRlODBiNWFlZA=="><i
+                      class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/rakesh-kumar-chenna-48a49b1b6"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Rakesh Kumar CH</h4>
+                <span>Co Founder & Cheif Marketing Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/Sushanth.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://twitter.com/Sushanth_38?t=8Uo2xQjRBjsq6YN40d1zzA&s=09"><i
+                      class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/mamidoju.sushanth?mibextid=ZbWKwL"><i
+                      class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/sushanth_mamidoju?igshid=MzRlODBiNWFlZA=="><i
+                      class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sushanth-mamidoju-139933174"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sushanth Mamidoju</h4>
+                <span>Co Founder & Cheif Designing Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/Bhanu.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                  <a href="https://www.facebook.com/bhanu.kyatham?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/bhanukyatham?igshid=MzRlODBiNWFlZA=="><i
+                      class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/bhanu-prakash-kyatham-28ab681b5"><i
+                      class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bhanu Prakash Kyatham</h4>
+                <span>Co Founder & Cheif External Affairs Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm  d-flex align-items-stretch" data-aos="fade-up" data-aos-once="false" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/Murali.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://twitter.com/KMurali65303333?t=XwISAyYPNqqMT3AVCpXObA&s=09"><i
+                      class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
+                  <a href="https://instagram.com/muralikrishna353?igshid=MzRlODBiNWFlZA=="><i
+                      class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/murali-krishna-345217200"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Murali Krishna</h4>
+                <span>Co Founder & Cheif Financial Officer</span>
+              </div>
+            </div>
+          </div>
+      </center>
+
+    </div>
+
+  </section><!-- End Team Section -->
+  <!-- ======= Recent Blog Posts Section ======= -->
+
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+
+    <div class="container" data-aos="fade-up" data-aos-once="false">
+
+      <header class="section-header">
+        <h2>Collaborations</h2>
+        <p>Contact</p>
+      </header>
+
+      <div class="row gy-4" style="justify-content: center;">
+
+        <div class="col-lg-6">
+          <form action="mailto:teaminducers@gmail.com" method="post" class="php-email-form"
+            style="background-color: #f2edf8;">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <a href="mailto:teaminducers@gmail.com" class="btn btn-primary">Send Message</a>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/INDUCE Updated.png" alt="">
+            </a>
+            <h6>Worthy concepts for many to <b>GROW</b> Together in a <b>CHAIN</b></h6>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/ToInduce" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/teaminducers" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.youtube.com/channel/UC3wRVCGHeLcqJzTW4pLJStg" class="youtube"><i
+                  class="bi bi-youtube"></i></a>
+              <a href="https://www.linkedin.com/company/induce-together-toexplore" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/teaminducers/?hl=en" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="mailto:teaminducers@gmail.com" class="google"><i class="bi bi-google"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Internships</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              QNo A 711 BDL Township <br>
+              Bhanoor, Patancheru Mandal, Sangareddy District, Telangana, 502305<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 9573511693<br>
+              <strong>Email:</strong> teaminducers@gmail.com<br>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    var TxtType = function (el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 2000;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+      var that = this;
+      var delta = 200 - Math.random() * 100;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(function () {
+        that.tick();
+      }, delta);
+    };
+
+    window.onload = function () {
+      var elements = document.getElementsByClassName('typewrite');
+      for (var i = 0; i < elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+      document.body.appendChild(css);
+    };
+  </script>
 </body>
 
 </html>
-<script>
-  $(document).ready(function () {
-    $('.customer-logos').slick({
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 4
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 3
-        }
-      }]
-    });
-  });
-</script>
